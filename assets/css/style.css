@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid red; */
+}
+.container{
+    background-color: rgb(224, 224, 224);
+    width: 1000px;
+    min-height: 700px;
+    margin: auto;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+}
+th, td{
+    /* border: 1px solid black; */
+    padding: 5px 15px;
+    font-size: 18px;
+    text-align: left;
+}
+.products{
+    display: inline-block;
+    vertical-align: top;
+}
+.show_cart{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 50px;
+}
+.buy_btn{
+    background-color: green;
+    color: rgb(230, 230, 230);
+    font-size: 14px;
+    padding: 2px 10px;
+    text-decoration: none;
+    border: none;
+}
+.qty{
+    width: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+.qty_btn{
+    display: block;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+    font-size: 10px;
+}
+.span{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+}
+.delete_btn{
+    background-color: rgb(204, 5, 5);
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+    padding: 3px 10px;
+    border: none;
+}
+.total_amount{
+    border-top: 2px solid black;
+}
+
+/* Billing Info */
+
+.billing input{
+    display: block;
+    margin: 15px;
+    padding: 3px;
+    font-size: 18;
+
+}
+
+.order_btn{
+    background-color: rgb(0, 132, 255);
+    color: rgb(223, 223, 223);
+    padding: 3px 100px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 3px 3px rgb(70, 70, 70);
+}
